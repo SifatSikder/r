@@ -1,0 +1,52 @@
+.loginAuthBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cardContent{
+        width: 500px;
+        padding: 50px;
+        background: #ffffff;
+        .SiteLogo{
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--mot-theme-color);
+            text-shadow: 1px 1px 1px var(--mot-theme-color);
+            &.wh{
+                color: #ffffff;
+                text-shadow: 1px 1px 5px #000000;
+            }
+        }
+        .SiteSlogan{
+            font-size: 27px;
+            font-weight: bold;
+            color: var(--mot-theme-color);
+            text-shadow: 1px 1px 1px var(--mot-theme-color);
+
+            @media screen and (max-width: 390px) {
+                font-size: 19px;
+            }
+
+        }
+        .btn-theme{
+            color: #ffffff;
+            background: var(--mot-theme-color);
+            transition: 0.3s all ease-in-out;
+            &:hover,&:active{
+                color: #ffffff;
+                background: var(--mot-theme-color-dark);
+                transition: 0.3s all ease-in-out;
+            }
+        }
+        .SiteIcon{
+            color: var(--mot-theme-color);
+        }
+
+        .form-check-input:checked {
+            background-color: var(--mot-theme-color);
+            border-color: var(--mot-theme-color);
+        }
+
+    }
+}

@@ -1,0 +1,73 @@
+//.btn-danger,.bg-danger {
+//    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00  51%, #ee0979  100%);
+//    text-transform: uppercase;
+//    transition: 0.5s;
+//    background-size: 200% auto;
+//    box-shadow: 0 0 20px #eee;
+//    border: none;
+//    display: inline-block;
+//    &:hover,&:active {
+//        background-position: right center; /* change the direction of the change here */
+//        text-decoration: none;
+//    }
+//}
+//
+//.btn-primary,.bg-primary {
+//    background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%);
+//    text-align: center;
+//    text-transform: uppercase;
+//    transition: 0.5s;
+//    background-size: 200% auto;
+//    box-shadow: 0 0 20px #eee;
+//    border: none;
+//    display: inline-block;
+//    &:hover,&:active {
+//        background-position: right center; /* change the direction of the change here */
+//        text-decoration: none;
+//    }
+//}
+//
+//.btn-warning,.bg-warning {
+//    background-image: linear-gradient(to right, #F7971E 0%, #FFD200  51%, #F7971E  100%);
+//    text-transform: uppercase;
+//    transition: 0.5s;
+//    background-size: 200% auto;
+//    box-shadow: 0 0 20px #eee;
+//    display: inline-block;
+//    &:hover,&:active {
+//        background-position: right center; /* change the direction of the change here */
+//        text-decoration: none;
+//    }
+//}
+//
+//.btn-success,.bg-success {
+//    background-image: linear-gradient(to right, #093028 0%, #237A57  51%, #093028  100%);
+//    text-transform: uppercase;
+//    transition: 0.5s;
+//    background-size: 200% auto;
+//    box-shadow: 0 0 20px #eee;
+//    display: inline-block;
+//    &:hover,&:active {
+//        background-position: right center; /* change the direction of the change here */
+//        text-decoration: none;
+//    }
+//}
+
+.remove-btn{
+    display: inline-block;
+    background-color: var(--mot-theme-color);
+    padding: 3px 7px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    &:hover{
+        background-color: var(--mot-theme-color-dark);
+        transition: 0.4s all ease-in-out;
+    }
+
+}

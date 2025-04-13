@@ -1,0 +1,121 @@
+<template>
+    <div class="container-lg">
+        <div class="w-100">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1 col-md-12">
+
+                    <form class="w-100" @submit.prevent="CreateWorkshop">
+                        <div class="card question-holder">
+                            <div class="card-header bg-white py-3 d-flex justify-content-between sticky-top">
+                                <h4 class="m-0"><strong class="text-dark">Create New Workshop</strong></h4>
+                                <div class="">
+                                    <router-link class="btn btn-sm btn-secondary rounded-pill px-3 me-2" :to="{name: 'Workshops'}">Cancel</router-link>
+                                    <button type="submit" class="btn btn-sm btn-primary rounded-pill px-3">Save Changes</button>
+                                </div>
+                            </div>
+                            <div class="card-body p-2 p-lg-5">
+                                <div class="row">
+                                    <div class="col-lg-12 mb-1">
+                                        <div class="w-100 p-4">
+                                            <div class="error-report-g"></div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-4">
+                                                        <label class="form-label"><strong>Code</strong></label>
+                                                        <input type="text" class="form-control" name="code" v-model="workshop.code" placeholder="Code">
+                                                        <div class="error-report text-danger"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group mb-4">
+                                                        <label class="form-label"><strong>Title</strong></label>
+                                                        <input type="text" class="form-control" name="title" v-model="workshop.title" placeholder="Title">
+                                                        <div class="error-report text-danger"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-4">
+                                                        <label class="form-label"><strong>Venue</strong></label>
+                                                        <input type="text" class="form-control" name="venue" v-model="workshop.venue" placeholder="Venue">
+                                                        <div class="error-report text-danger"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group mb-4">
+                                                        <label class="form-label"><strong>Date</strong></label>
+                                                        <flat-pickr
+                                                            v-model="workshop.date"
+                                                            :config="dateConfig"
+                                                            class="form-control"
+                                                            placeholder="Select date"
+                                                            name="date"/>
+                                                        <div class="error-report text-danger"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+
+<script>
+import ApiService from "../../services/ApiService";
+import ApiRoutes from "../../services/ApiRoutes";
+import {createToaster} from "@meforma/vue-toaster";
+import flatPickr from 'vue-flatpickr-component';
+import 'flatpickr/dist/flatpickr.css';
+
+const Toaster = createToaster({position: 'top-right'});
+
+export default {
+    components: {
+        flatPickr
+    },
+    data() {
+        return {
+            Loading: false,
+            workshop: {
+                "title": "",
+                "venue": "",
+                "code": "",
+                "date": "",
+            },
+            dateConfig: {
+                disableMobile: true,
+                altInput: true,
+                altFormat: "d M, Y",
+                minDate: new Date()
+            }
+        }
+    },
+    methods: {
+        CreateWorkshop() {
+            this.Loading = true;
+            ApiService.ClearErrorHandler();
+            ApiService.POST(ApiRoutes.CreateWorkshop, this.workshop, (res) => {
+                this.Loading = false;
+                if (parseInt(res.status) === 200) {
+                    Toaster.success(res.msg);
+                    this.$router.push({name: 'Workshops'})
+                } else {
+                    ApiService.ErrorHandler(res.error);
+                }
+            })
+        },
+
+    },
+    created() {
+    },
+    mounted() {
+    }
+};
+</script>

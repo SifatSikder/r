@@ -1,0 +1,92 @@
+# MOT4AI Features
+
+- CMS Portal
+    - Authentication
+    - Admin Profile
+    - Dashboard Report (3 Charts)
+    - Management
+        - User Management
+            - Add User
+            - Update user
+            - Delete User
+            - List of Users
+        - News & Events
+            - Add News & Events
+            - Update News & Events
+            - List of News & Events
+        - Workshops
+            - Add Workshop
+            - Update Workshop
+            - Delete Workshop
+            - View All participants of Workshop
+            - List of Workshops
+        - Certifications
+            - Evaluation Certification
+                - List of Certificates
+                - Certificate Settings
+            - Workshop Participant Certification
+                - List of Certificates
+                - Certificate Settings
+        - Risk Evaluation
+            - Specific Domain configuration
+            - Question Management
+                - Non-Technical
+                - General Technical
+                - For Specific Domain Risk Evaluation
+        - Fair Decision Analysis
+            - Specific Domain configuration
+            - Question Management
+                - General Fair Decision
+                - For Specific Domain Fair Decision
+        - Website Settings
+            - Pages and sections dynamic data configuration
+                - Homepage
+                - Safety & Assurance
+                - Manage AI Risk
+                - Fair Decision Analysis
+                - Training
+                - Awareness
+                - Certification
+                - Team
+                - SEO Meta Information
+                - Contact
+                - Social
+                - Privacy Policy
+                - Cookie Policy
+                - Terms & Conditions
+- User Portal
+    - Front Pages
+        - Homepage
+        - AI Safety & Risks
+            - Training
+            - Awareness
+            - Certification
+                - Basic Certification
+                    - Basic Evaluation Certificate
+                    - Workshop Participation Certificate
+                - Advance Certification
+        - Manage AI Risk
+            - Start Risk Evaluation
+                - Non-Technical
+                - General Technical
+                - For Specific Domain Risk Evaluation
+            - Demo Evaluation
+        - Fair Decision Analysis
+            - Start Fair Decision Analysis
+                - General Fair Decision
+                - For Specific Domain Fair Decision
+        - Team
+        - Pricing
+        - Contact Us
+        - Privacy Policy
+        - Cookie Policy
+        - Terms & Conditions
+    - User Authentication
+    - User Portal
+        - User Profile
+        - User Dashboard
+        - Risk Evaluation and Fair Decision Analysis Report
+            - Generate Mitigation Strategies
+            - Update Evaluation & analysis report
+            - Download Evaluation Certification
+            - Delete Evaluation 

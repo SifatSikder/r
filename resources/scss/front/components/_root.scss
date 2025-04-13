@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden
+}
+
+.h1 {
+    font-size: 45px;
+    @media screen and (max-width: 991px){
+        font-size: 35px;
+    }
+    @media screen and (max-width: 767px){
+        font-size: 30px;
+    }
+}
+
+.bg-opacity-10{opacity:0.1}
+.bg-opacity-25{opacity:0.25}
+.bg-opacity-50{opacity:0.5}
+.bg-opacity-75{opacity:0.75}
+.bg-opacity-100{opacity:1}
+
+.text-md-center {
+    @media (max-width: 991px) {
+        text-align: center !important;
+    }
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.ql-editor{
+    @media screen and (max-width: 767px) {
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 13px;
+        }
+        ul{
+            li{
+                font-size: 13px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 567px) {
+        h2{
+            font-size: 18px;
+        }
+    }
+}
+

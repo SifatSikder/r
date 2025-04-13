@@ -1,0 +1,204 @@
+<template>
+    <div class="w-100">
+        <div class="container">
+            <div class="w-100" v-if="risk_evaluation">
+
+                <div class="row d-flex align-items-center py-3">
+                    <div class="col-lg-3">
+                        <router-link :to="{name: 'Dashboard'}" class="btn btn-sm btn-outline-secondary"><i class="fa fa-fw fa-arrow-left"></i> Back to Dashboard</router-link>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="text-center text-secondary m-0"><strong>{{ risk_evaluation.evaluation.project.name }}</strong></h2>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col-lg-12 text-center">
+                        <a href="javascript:void(0)" class="btn btn-info text-uppercase px-5 me-5">{{ risk_evaluation.evaluation.evaluation_sector }}</a>
+<!--                        <a href="javascript:void(0)" class="btn btn-warning text-uppercase px-5">{{ risk_evaluation.evaluation.ai_system_type }}</a>-->
+                    </div>
+                    <div class="col-lg-12 text-center mt-5">
+                        <h4 class="alert alert-primary">
+                            Based on your answers, your technology usage
+<!--                            in the-->
+<!--                            <span class="badge bg-warning text-uppercase">{{ risk_evaluation.evaluation.ai_system_type }}</span>-->
+                            falls under the
+                            <span class="badge" :class="'bg-'+risk_evaluation.finalRiskLevel.toLowerCase()">{{ risk_evaluation.finalRiskLevel }}</span>
+                            Risk level
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6" v-for="(report, index) in risk_evaluation.report">
+                        <div class="w-100">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center py-3">
+                                    <h4 class="m-0 p-0">{{ report.title }}</h4>
+                                    <span class="badge" :class="'bg-'+risk_evaluation.evaluation.risk_level.toLowerCase()">{{ report.risks_percentage }}%</span>
+                                </div>
+                                <div class="card-body">
+                                    <div class="w-100">
+                                        <table class="table table-text-small">
+                                            <thead>
+                                            <tr>
+                                                <th>Risk Factor</th>
+                                                <th class="text-center" v-for="chatbot in risk_evaluation.evaluation.chatbots">{{ chatbot }}</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr v-for="factor in report.risk_factors">
+                                                <td>{{ factor.title }}</td>
+                                                <template v-if="factor.report === null">
+                                                    <td class="text-center">-</td>
+                                                    <td class="text-center">-</td>
+                                                    <td class="text-center">-</td>
+                                                </template>
+                                                <template v-if="factor.report !== null">
+                                                    <td v-for="(risk, bot) in factor.report" class="text-center">
+                                                        <span class="badge" :class="'bg-'+risk.toLowerCase()">{{ risk }}</span>
+                                                    </td>
+                                                </template>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col-lg-7">
+                        <div class="w-100 h-100 bg-white shadow border p-5">
+                            <h2 class="text-secondary mb-4"><strong>Heading</strong></h2>
+                            <p class="m-0 p-0">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                <br><br>
+                                aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="w-100 h-100 bg-white shadow border p-5" v-if="chart != null">
+                            <Pie :data="chart" :options="chartOptions"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-3">
+                    <div class="col-lg-12" v-if="risk_evaluation.evaluation.strategy === undefined">
+                        <div class="w-100 text-center p-5">
+                            <router-link :to="{name: 'MitigationStrategies', params:{evaluation_id:evaluation_id}}" class="btn btn-lg px-5 py-4 btn-outline-primary"><strong>Tell Us About Your Mitigation Strategies</strong></router-link>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" v-if="risk_evaluation.evaluation.strategy !== undefined">
+                        <div class="w-100 mt-4">
+                            <div class="card shadow">
+                                <div class="card-header py-3 d-flex justify-content-between align-items-center">
+                                    <h5 class="m-0"><strong>Project Strategy</strong></h5>
+                                </div>
+                                <div class="card-body">
+
+                                    <table class="table table-borderless">
+                                        <tr>
+                                            <td style="width: 50px"><h4>01.</h4></td>
+                                            <td>
+                                                <h5>How do you currently manage and mitigate the identified risks in your technology usage?</h5>
+                                                <p><span class="badge bg-success fs-6">{{risk_evaluation.evaluation.strategy.mitigate_strategy}}</span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50px"><h4>02.</h4></td>
+                                            <td>
+                                                <h5>Are you implementing any ethical considerations and fairness measures in your technology usage?</h5>
+                                                <p><span class="badge bg-success fs-6">{{risk_evaluation.evaluation.strategy.ethical_measures}}</span></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 50px"><h4>03.</h4></td>
+                                            <td>
+                                                <h5>What strategies do you have in place to address unforeseen challenges that might impact your technology usage's performance?</h5>
+                                                <p><span class="badge bg-success fs-6">{{risk_evaluation.evaluation.strategy.performance_strategy}}</span></p>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</template>
+<script>
+import ApiService from "../../services/ApiService";
+import ApiRoutes from "../../services/ApiRoutes";
+import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
+import {Pie} from 'vue-chartjs'
+
+ChartJS.register(ArcElement, Tooltip, Legend)
+
+export default {
+    data() {
+        return {
+            loading: 1,
+            evaluation_id: this.$route.params.evaluation_id,
+            risk_evaluation: null,
+            chart: null,
+            chartOptions: {
+                responsive: true,
+                maintainAspectRatio: false,
+                title: {
+                    position: 'bottom',
+                    display: true,
+                    text: 'Risk Evaluation'
+                }
+            }
+        }
+    },
+    components: {Pie},
+    watch: {},
+    methods: {
+        evaluation_report: function () {
+            const THIS = this;
+            THIS.loading = 1;
+            ApiService.POST(ApiRoutes.user_evaluation_report, {evaluation_id: THIS.evaluation_id}, function (res) {
+                THIS.loading = 0;
+                if (res.status === 200) {
+                    THIS.risk_evaluation = res.risk_evaluation;
+                    THIS.chart = {
+                        labels: res.risk_evaluation.chart.label,
+                        datasets: [
+                            {
+                                backgroundColor: ['#41B883', '#f5ff00', '#2a80ff', '#ff005a'],
+                                data: res.risk_evaluation.chart.data
+                            }
+                        ]
+                    };
+                }
+            })
+        }
+    },
+    created() {
+        this.evaluation_report();
+    },
+    mounted() {
+        window.scrollTo(0, 0);
+    },
+}
+</script>

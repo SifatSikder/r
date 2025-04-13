@@ -1,0 +1,165 @@
+.home-banner {
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(#000000, 0.6);
+    }
+
+    &.full-banner-shadow {
+        &:before {
+            height: 100%;
+            background: transparent;
+            background: linear-gradient(0deg, transparent 0%, rgba(#000000, 0.8) 100%);
+        }
+    }
+
+    .home-banner-content {
+        width: 100%;
+        display: block;
+        min-height: 100vh;
+        position: relative;
+
+        &.banner-50 {
+            min-height: 50vh;
+        }
+
+        @media (max-width: 991px) {
+            min-height: inherit;
+            padding: 150px 0;
+        }
+
+        .text-content {
+            width: 100%;
+            display: flex;
+            min-height: 100vh;
+            position: relative;
+            align-items: center;
+
+            .title {
+                font-size: 54px;
+                color: #fff;
+                @media screen and (max-width: 991px) {
+                    font-size: 40px;
+                }
+            }
+
+            .banner_desc {
+                font-size: 37px;
+                color: #fff;
+
+                @media screen and (max-width: 991px) {
+                    font-size: 30px;
+                }
+                @media screen and (max-width: 767px) {
+                    font-size: 25px;
+                }
+            }
+
+            .slogan {
+                font-size: 25px;
+                color: #fff;
+
+                @media screen and (max-width: 991px) {
+                    font-size: 22px;
+                }
+            }
+
+            &.banner-50 {
+                min-height: 50vh;
+            }
+
+            @media (max-width: 991px) {
+                min-height: inherit;
+                padding: 50px 0;
+            }
+        }
+    }
+}
+
+.safety-forms {
+    width: 100%;
+    display: block;
+
+    .safety-forms-content {
+        width: 100%;
+        display: block;
+        position: relative;
+        top: -20vh;
+        min-height: 300px;
+        background: #ffffff;
+        border-radius: 10px;
+        &.transparent{
+            background: transparent;
+        }
+    }
+}
+
+.how-it-works-circle-parent {
+    .how-it-works-circle {
+        height: 400px;
+        width: 400px;
+        border-radius: 70% 50% 45% 35%;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-color: #e6e6e6;
+        @include transition(all 0.4s linear);
+    }
+
+    &:hover, &:active {
+        .how-it-works-circle {
+            border-radius: 50% 70% 35% 45%;
+            @include transition(all 0.4s linear);
+        }
+    }
+}
+
+.about-us-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.eachTeam{
+    width: 100%;
+    display: inline-block;
+    height: 600px;
+    overflow: hidden;
+    .team_avatar{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.eachBlog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 450px;
+    border-radius: 10px;
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+
+
+// Typography
+.text-theme{
+    color: var(--mot-theme-color);
+}
+.text-justify{text-align: justify;}
+
+// Table
+.table.table-vertical-middle{
+    th,td{
+        vertical-align: middle;
+    }
+}
+
+// Dropdown
+.dropdown-menu{
+    .router-link-exact-active{
+        color: #ffffff!important;
+        background-color: var(--mot-theme-color)!important;
+        border-bottom: 0 solid var(--mot-theme-color)!important;
+        @include transition(all 0.2s linear);
+    }
+}

@@ -1,0 +1,1739 @@
+[
+    {
+        "name": "GoogleBard",
+        "matrix": {
+            "Industry": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Health": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Engineering": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Agriculture": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Business": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Education": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Art": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "High risk as a new large language model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "High risk as a very large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Moderate risk as large models can create deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "High risk of displacing human roles",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "High risk of encoding biases",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "High risk as a new large model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "High risk as a new model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Low accountability as new model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "High risk of over-reliance",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "High risk of automating human roles",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "ChatGPT",
+        "matrix": {
+            "Industry": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Health": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Engineering": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Agriculture": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Business": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Education": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Art": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Moderate risk as an established model with some safeguards",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Moderate risk with some controls against harmful content",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Moderate risk as an established model",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Low risk as less capable of creating deepfakes",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Moderate risk of automating some tasks",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Moderate risk with some controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Moderate bias risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Moderate risk with some safeguards",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Moderate risk with controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Moderate privacy risk",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "Moderate accountability practices",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Moderate risk of over-reliance",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Moderate risk of automation",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "ClaudeAI",
+        "matrix": {
+            "Industry": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Health": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Unacceptable",
+                        "risk_value": 3
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Engineering": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Agriculture": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Business": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "High",
+                        "risk_value": 2
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "High",
+                        "risk_value": 2
+                    }
+                ]
+            },
+            "Education": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    }
+                ]
+            },
+            "Art": {
+                "risk_factors": [
+                    {
+                        "uid": 1,
+                        "sub_title": "Low risk with strong safeguards against misinformation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 2,
+                        "sub_title": "Very low risk with strong controls against harmful content",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  3,
+                        "sub_title": "Very low risk with safeguards against manipulation",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid": 4,
+                        "sub_title": "Very low risk and not capable of creating deepfakes",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  5,
+                        "sub_title": "Low risk as focused on assisting humans",
+                        "risk": "Low",
+                        "risk_value": 0
+                    },
+                    {
+                        "uid":  6,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid": 7,
+                        "sub_title": "Low bias risk with strong controls",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  8,
+                        "sub_title": "Low risk with rigorous vetting",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  9,
+                        "sub_title": "Low risk with abuse detection",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  10,
+                        "sub_title": "Low privacy risk with data protections",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  11,
+                        "sub_title": "High accountability practices",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  12,
+                        "sub_title": "Low risk with responsible deployment",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    },
+                    {
+                        "uid":  13,
+                        "sub_title": "Low risk focused on assisting humans",
+                        "risk": "Limited",
+                        "risk_value": 1
+                    }
+                ]
+            }
+        }
+    }
+]

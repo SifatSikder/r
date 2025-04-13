@@ -1,0 +1,44 @@
+.body-loading{
+    width: 100%;
+    height: calc(100vh - 100px);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(#ffffff, 0.7);
+    z-index: 99;
+    top: 100px;
+    left: 0;
+}
+.eachBlog{
+    border-radius: 10px;
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+}
+.eachUser{
+    border: 5px solid transparent;
+    border-radius: 10px;
+    img{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+    &.grayscale{
+        filter: grayscale(1)!important;
+        opacity: 0.6;
+        border: 5px solid #bbbbbb;
+        @include transition(all 0.2s linear);
+        &:hover,&:active{
+            opacity: 1;
+            @include transition(all 0.2s linear);
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.course-preview-board{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+    .course-preview-board-sidebar{
+        width: 350px;
+        min-height: calc(100vh - 250px);
+        display: inline-block;
+        height: 100%;
+        border-right: 1px solid #ccc;
+        z-index: 2;
+        float: left;
+        padding: 10px;
+        .each-topics{
+            width: 100%;
+            .each-topics-title{
+                width: 100%;
+                font-size: 20px;
+                font-weight: bold;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+            .each-topic-lesson{
+                width: 100%;
+                padding: 10px 0;
+                cursor: pointer;
+                label{
+                    cursor: pointer;
+                }
+                .lesson_hover{
+                    border-radius: 5px;
+                    @include transition(all 0.2s ease-in-out);
+                    &:hover{
+                        background-color: #e8e8e8;
+                        @include transition(all 0.2s ease-in-out);
+                    }
+                }
+                .active_lesson{
+                    background-color: rgba(#198754, 0.1)!important;
+                    border: 1px solid rgba(#198754, 0.4) !important;
+                    border-radius: 5px;
+                    @include transition(all 0.2s ease-in-out);
+                    a,strong{
+                        color: #000000!important;
+                    }
+                }
+            }
+        }
+    }
+
+    .course-preview-board-content{
+        width: calc(100% - 350px);
+        min-height: calc(100vh - 250px);
+        display: inline-block;
+        height: 100%;
+        z-index: 1;
+        float: left;
+        padding: 30px;
+
+        .ql-editor {
+            .ql-video {
+                width: 100% !important;
+                max-width: 700px;
+                height: auto;
+                aspect-ratio: 16 / 9; /* Optional for maintaining aspect ratio */
+                display: block;
+            }
+            img{
+                width: 100% !important;
+                max-width: 700px;
+                height: auto;
+                aspect-ratio: 16 / 9; /* Optional for maintaining aspect ratio */
+                display: block;
+            }
+        }
+    }
+}

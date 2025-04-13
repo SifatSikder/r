@@ -1,0 +1,116 @@
+[
+    {
+        "uid": 1,
+        "title": "Generating Inaccurate or Misleading Information",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+        "uid": 2,
+        "title": "Generating Harmful Content",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+        "uid": 3,
+        "title": "Manipulating People (e.g., Fake News)",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 4,
+        "title": "Creation of Deepfakes",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 5,
+        "title": "Automating Human-dependent Tasks",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 0,
+        "legal": 0
+    },
+    {
+
+        "uid": 6,
+        "title": "Hacking or Misuse Vulnerability",
+        "software": 1,
+        "hardware": 1,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 7,
+        "title": "Bias and Fairness",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 8,
+        "title": "Misinformation",
+        "software": 0,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 9,
+        "title": "Safety and Abuse",
+        "software": 1,
+        "hardware": 1,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 10,
+        "title": "Privacy Violations",
+        "software": 0,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 11,
+        "title": "Accountability",
+        "software": 1,
+        "hardware": 0,
+        "ethical": 1,
+        "legal": 1
+    },
+    {
+
+        "uid": 12,
+        "title": "Over-reliance",
+        "software": 1,
+        "hardware": 1,
+        "ethical": 1,
+        "legal": 0
+    },
+    {
+
+        "uid": 13,
+        "title": "Labour Displacement",
+        "software": 1,
+        "hardware": 1,
+        "ethical": 0,
+        "legal": 0
+    }
+]

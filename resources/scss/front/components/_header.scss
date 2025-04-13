@@ -1,0 +1,114 @@
+.header {
+    width: 100%;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    @include transition(all 0.2s linear);
+    @media (max-width: 991px) {
+        background: rgba(#000000, 0.9);
+    }
+    .navbar {
+        color: #fff;
+        .navbar-brand {
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+
+            img {
+                height: 40px
+            }
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            font-size: 18px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 10px;
+            //font-weight: 700;
+            color: #fff;
+            text-shadow: 0 0 20px #777777;
+            border-bottom: 2px solid transparent;
+            -moz-transition: all .2s linear;
+            -webkit-transition: all .2s linear;
+            transition: all .2s linear;
+
+            &:active, &:hover, &:focus, &.active {
+                border-bottom: 2px solid #ffffff;
+                color: #fff;
+                -moz-transition: all .2s linear;
+                -webkit-transition: all .2s linear;
+                transition: all .2s linear
+            }
+
+            @media (max-width: 1200px) {
+                font-size: 15px;
+            }
+            @media (max-width: 991px) {
+                font-size: 18px;
+            }
+        }
+        .navbar-nav {
+            .dropdown-menu {
+                @media (max-width: 991px) {
+                    width: 100% !important;
+                    background: transparent!important;
+                }
+
+                .dropdown-item {
+                    @media (max-width: 991px) {
+                        color: #ffffff;
+                        text-align: left !important;
+                    }
+                    &:active, &:hover, &:focus &.active {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+    &.header_fixed{
+        background: #ffffff;
+        @include transition(all 0.2s linear);
+        .navbar {
+            .navbar-brand {
+                color: #000000;
+            }
+            .navbar-nav .nav-item .nav-link {
+                color: #000000;
+                text-shadow: 0 0 20px #ffffff;
+                &:active, &:hover, &:focus &.active {
+                    border-bottom: 2px solid #0D6EFD;
+                    color: #000000;
+                }
+            }
+            .navbar-nav {
+                .dropdown-menu {
+                    .dropdown-item {
+                        @media (max-width: 991px) {
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.dashboard-header {
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.profile-avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
